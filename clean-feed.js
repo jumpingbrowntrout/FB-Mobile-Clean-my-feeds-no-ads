@@ -14,7 +14,7 @@
 // @grant        GM_addStyle
 // @run-at       document-end
 // @downloadURL https://github.com/jumpingbrowntrout/FB-Mobile-Clean-my-feeds-no-ads/edit/main/clean-feed.js
-// @updateURL https://github.com/jumpingbrowntrout/FB-Mobile-Clean-my-feeds-no-ads/edit/main/clean-feed.meta.js
+// @updateURL https://raw.githubusercontent.com/jumpingbrowntrout/FB-Mobile-Clean-my-feeds-no-ads/refs/heads/main/clean-feed.meta.js
 // ==/UserScript==
 
 // src/config.ts
