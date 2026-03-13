@@ -344,7 +344,7 @@ var keywordsPerLanguage = {
   reels: {
     "en-US": "Reels",
     en: "Reels"
-  }
+  },
   ad: {
     "en-US": "Ad",
     en: "Ad"
@@ -382,7 +382,7 @@ var filtersDatabase = {
     description: "Removes suggested pages with join/follow link",
     icon: "\uDB86\uDC02",
     keywordsDB: keywordsPerLanguage.uncategorized
-  }
+  },
   ad: {
     title: "Ad",
     description: "Removes ad",
