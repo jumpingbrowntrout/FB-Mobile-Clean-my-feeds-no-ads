@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         FB Mobile - Clean my feeds + ads
+// @name         FB Mobile - Clean my feeds (no ads)
 // @namespace    Violentmonkey Scripts
 // @version      1.051
-// @description  Removes Sponsored and Suggested posts from Facebook mobile chromium/react version
+// @description  Removes Sponsored and Suggested posts from Facebook mobile chromium/react version. OP script modified to filter out ads.
 // @license      GNU General Public License v3.0
 // @author       https://github.com/webdevsk
 // @match        https://m.facebook.com/*
@@ -13,8 +13,8 @@
 // @grant        GM_setValue
 // @grant        GM_addStyle
 // @run-at       document-end
-// @downloadURL https://update.greasyfork.org/scripts/479868/FB%20Mobile%20-%20Clean%20my%20feeds.user.js
-// @updateURL https://update.greasyfork.org/scripts/479868/FB%20Mobile%20-%20Clean%20my%20feeds.meta.js
+// @downloadURL https://github.com/jumpingbrowntrout/FB-Mobile-Clean-my-feeds-no-ads/edit/main/clean-feed.js
+// @updateURL https://github.com/jumpingbrowntrout/FB-Mobile-Clean-my-feeds-no-ads/edit/main/clean-feed.meta.js
 // ==/UserScript==
 
 // src/config.ts
