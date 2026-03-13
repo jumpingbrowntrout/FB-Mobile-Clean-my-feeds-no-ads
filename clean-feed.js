@@ -359,6 +359,12 @@ var filtersDatabase = {
     icon: "\uDB86\uDD01",
     keywordsDB: keywordsPerLanguage.suggested
   },
+  ad: {
+    title: "Ad",
+    description: "Removes ads",
+    icon: "\uDB86\uDC11",
+    keywordsDB: keywordsPerLanguage.ad
+  },
   sponsored: {
     title: "Sponsored",
     description: "Removes annoying ads",
@@ -382,12 +388,6 @@ var filtersDatabase = {
     description: "Removes suggested pages with join/follow link",
     icon: "\uDB86\uDC02",
     keywordsDB: keywordsPerLanguage.uncategorized
-  },
-  ad: {
-    title: "Ad",
-    description: "Removes ad",
-    icon: "\uDB86\uDC11",
-    keywordsDB: keywordsPerLanguage.ad
   }
 };
 var filterTitlePerKeywordIndex = new Map(Object.entries(filtersDatabase).flatMap(([_category, { title, keywordsDB }]) => Object.values(keywordsDB).flatMap((keyword) => Array.isArray(keyword) ? keyword.map((k) => [k, title]) : [[keyword, title]])));
