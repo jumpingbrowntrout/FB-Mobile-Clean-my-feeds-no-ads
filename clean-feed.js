@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         FB Mobile - Clean my feeds
+// @name         FB Mobile - Clean my feeds + ads
 // @namespace    Violentmonkey Scripts
 // @version      1.051
 // @description  Removes Sponsored and Suggested posts from Facebook mobile chromium/react version
